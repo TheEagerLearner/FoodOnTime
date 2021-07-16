@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="50dp">
+<RelativeLayout
+    android:id="@+id/bar"
+    android:layout_width="18dp"
+    android:layout_height="6dp"
+    android:layout_centerVertical="true"
+    android:background="@color/add"
+    android:layout_marginLeft="10dp"
+    />
+    <TextView
+        android:id="@+id/txtFoodItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bar"
+        android:layout_centerVertical="true"
+        android:text="FoodItem_Name"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/txtFoodItemCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Cost"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        />
+</RelativeLayout>

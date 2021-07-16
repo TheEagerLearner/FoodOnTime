@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fav">
+
+
+  <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Rec"
+        />
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/NoFav"
+      android:background="#ffffff">
+
+    <ImageView
+      android:id="@+id/heart"
+      android:layout_width="250dp"
+      android:layout_height="250dp"
+      android:background="@drawable/ic_like"
+      android:layout_centerInParent="true"
+      />
+    <TextView
+        android:id="@+id/noFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You do not have any favorite restaurants"
+        android:textColor="#E72B31"
+        android:layout_below="@+id/heart"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        /></RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FoodOnTime</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="q1">Q.How can I change my shipping address?</string>
+    <string name="a1">A.By default, the last used shipping address will be saved into to your Sample Store account. When you are checking out your order, the default shipping address will be displayed and you have the option to amend it if you need to.</string>
+    <string name="q2">Q.How do I activate my account?</string>
+    <string name="a2">A.The instructions to activate your account will be sent to your email once you have submitted the registration form. If you did not receive this email, your email service provider’s mailing software may be blocking it. You can try checking your junk / spam folder or contact us at help@samplestore.com</string>
+    <string name="q3">Q.What do you mean by points? How do I earn it?</string>
+    <string name="a3">A.Because you are important to us, we want to know what you think about the products. As an added value, every time you rate the products you earn points which go straight to your account. 1 point are added to your account for every review that you give. You will need those points in order to redeem the sample products. So keep rating the products to keep earning points!</string>
+    <string name="q4">Q.Why is there a checkout limit? / What are all the checkout limits?</string>
+    <string name="a4">A.Sample Store is a popular spot and gets lots of shoppers at a time. These limits are in place to make sure everyone has a good time trying and purchasing their products. So...\n - Each member is entitled to only one (1) sample order every day.\n - Each member is entitled to one (1) bundle of sample for each product.\n - Your account must have sufficient points before you can checkout the sample products.\n - Kindly clear all pending payments before another checkout.</string>
+    <string name="q5"><![CDATA[Q.How can I track my orders & payment?]]></string>
+    <string name="a5">A.After logging into your account, the status of your checkout history can be found under Order History. For orders via registered postage, a tracking number (article tracking number) will be given to you after the receipt given from Singapore Post Limited (SingPost).</string>
+</resources>

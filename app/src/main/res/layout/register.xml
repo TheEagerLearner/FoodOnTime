@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+
+    android:id="@+id/txtName"
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    app:cardCornerRadius="8dp"
+    android:layout_below="@+id/mobile"
+    >
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Name(Min 3 characters)  "
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:layout_marginHorizontal="8dp"
+        android:background="@null"
+        android:inputType="text"
+
+
+        />
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_below="@+id/mobile"
+        >
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Email address  "
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:layout_marginHorizontal="8dp"
+            android:background="@null"
+            android:inputType="textEmailAddress"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtMoileno"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_below="@+id/mobile"
+        >
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Mobile Number(10 digits)   "
+            android:drawableLeft="@drawable/ic_mobile"
+            android:drawablePadding="2dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@null"
+            android:inputType="number"
+            android:maxLength="10"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_below="@+id/mobile"
+        >
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Delivery Address   "
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/ic_address"
+            android:layout_marginHorizontal="8dp"
+            android:background="@null"
+            android:inputType="text"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_below="@+id/mobile"
+        >
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Password(Min. 4 characters)   "
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:layout_marginHorizontal="8dp"
+            android:background="@null"
+            android:inputType="numberPassword"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/passwordconfirm"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="8dp"
+
+        >
+        <EditText
+            android:id="@+id/etPasswordConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Confirm Password   "
+            android:drawablePadding="2dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:layout_marginHorizontal="8dp"
+            android:background="@null"
+            android:inputType="numberPassword"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#ff5733"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+</LinearLayout>
